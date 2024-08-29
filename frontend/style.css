@@ -1,0 +1,59 @@
+#registrationForm{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+#updateForm{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+input{
+    padding: 7px;
+    margin: 10px;
+}
+
+button{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: green;
+}
+.body{
+    display: flex;
+    gap: 50px;
+}
+li{
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+#back-btn{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+.dlt-btn{
+    color: white;
+    cursor: pointer;
+}
+.dlt-btn:hover{
+    text-decoration: underline;
+    background-color: red;
+}
+.upd-btn{
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+.upd-btn:hover{
+    text-decoration: underline;
+    background-color: green;
+}
